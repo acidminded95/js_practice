@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometric figures</title>
+</head>
+<body>
+    <header>
+        <h1>Geometric Figures</h1>
+        <p>This is the first exercise in the JavaScript practical course from Platzi.</p>
+    </header>
+
+    <section>
+        <h2>Here you can calculate the area and perimeter of different geometrical figures.</h2>
+        <div class="square">
+            <h3>Square</h3>
+            <form>
+                <label for="square-side">
+                    Please enter the square's side length:
+                </label>
+                <input id="square-side" type="number" />
+                <button onclick="getSquarePerimeter()">
+                    Calculate perimeter
+                </button>
+                <button onclick="getSquareArea()">
+                    Calculate area
+                </button>
+            </form>
+        </div>
+
+        <div class="triangle">
+            <h3>Isoceles Triangle</h3>
+            <form>
+                <label for="triangle-base">
+                    Please enter the triangle's base length:
+                </label>
+                <input id="triangle-base" type="number" />
+                <br>
+                <br>
+                <label for="triangle-side">
+                    Please enter the triangle's side length:
+                </label>
+                <input id="triangle-side" type="number" />
+                
+                <button onclick="getTriangleHeight()">
+                    Calculate isoceles triangle's height
+                </button>
+            </form>
+        </div>
+    </section>
+    
+    <script src="./figures.js"></script>
+</body>
+</html>

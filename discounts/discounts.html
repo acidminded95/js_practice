@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percentages and discounts</title>
+</head>
+<body>
+    <header>
+        <h1>Percentages and discounts</h1>
+        <p>This is the second exercise in the JavaScript practical course from Platzi.</p>
+    </header>
+
+    <section>
+        <h2>Calculate your discount!</h2>
+        <div class="discount-calculator">
+            <label for="price-input">Please enter the product price: </label>
+            <input id="price-input" type="number"/>
+            <br>
+            <br>
+            <label for="discount-input">Now enter the product discount: </label>
+            <input id="discount-input" type="number"/>
+            <br>
+            <br>
+            <label for="coupon-input">If you have a coupon, please enter it now: </label>
+            <input id="coupon-input" type="string"/>
+            <br>
+            <br>
+            <button onclick="getDiscount()"> >> Calculate final price << </button>
+            <br>
+            <br>
+            <p id="final-price"></p>
+        </div>
+    </section>
+    <script src="./discounts.js"></script>
+</body>
+</html>
